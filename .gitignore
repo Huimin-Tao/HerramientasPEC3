@@ -1,0 +1,13 @@
+# Directorios de cache y compilación
+.parcel-cache/
+dist/
+node_modules/
+
+# Archivos de bloqueo de paquetes
+package-lock.json
+
+# Archivos y directorios de configuración de IDE y editores
+.vscode/
+
+# Archivo de .DS_Store
+.DS_Store
