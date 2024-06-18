@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Enlaces y Atribuciones</title>
+    <meta name="description"
+        content="Explore la documentación detallada, los enlaces a las fuentes originales y las atribuciones de derechos de autor en nuestra página">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Carga asíncrona a los Google Fonts  -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@900&family=Roboto:wght@400;700;900&display=swap" as="style">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@900&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <!-- Logo y Menú de navegación-->
+    <header class="header">
+        <nav class="navbar portada">
+            <!-- logotipo -->
+            <div class="logo">
+                <a href="index.html" aria-label="Ir a la página de inicio" title="página de inicio">
+                    <img src="images/logo-light.svg" alt="Logo de Coldplay" width="150" height="60" loading="lazy">
+                </a>
+            </div>
+
+            <!-- barra de navegación -->
+            <ul class="navigation navlink">
+                <li><a href="index.html" aria-label="Ir a la página de inicio">Home</a></li>
+                <li><a href="category.html" aria-label="Explorar todos los discos de Coldplay">Discografía</a></li>
+                <li><a href="presentation.html" aria-label="Conocer más sobre Coldplay">Coldplay</a></li>
+                <li><a href="link.html" aria-label="Leer la documentación y enlaces del sitio">Enlaces</a></li>
+            </ul>
+
+            <!-- icono de hamburguesa -->
+            <button class="hamburguesa" aria-label="Abrir el menú de navegación">
+                <span class="line burger"></span>
+                <span class="line burger"></span>
+                <span class="line burger"></span>
+            </button>
+
+        </nav>
+    </header>
+
+
+    <main class="main enlace">
+        <div class="container links">
+            <h1>Documentación y Recursos</h1>
+
+            <section>
+                <h2>Fotos y Su Fuente</h2>
+                <ul>
+                    <li><a href="https://www.midjourney.com/" target="_blank" lang="en" hreflang="en">Fotos de Portada -
+                            Midjourney</a></li>
+                    <li><a href="https://commons.wikimedia.org/wiki/Main_Page" target="_blank" lang="en"
+                            hreflang="en">Foto de Discos - Wikimedia Commons</a></li>
+                    <li><a href="https://www.midjourney.com/" target="_blank" lang="en" hreflang="en">Foto del Artículo
+                            Principal - Midjourney</a></li>
+                            <li><a href="https://www.midjourney.com/" target="_blank" lang="en" hreflang="en">Fotos de Artículos Similares - Midjourney</a></li>
+
+                    <li><a href="https://www.midjourney.com/" target="_blank" lang="en" hreflang="en">Fotos de
+                            Presentación - Midjourney</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=OZxFNk3aIM0" target="_blank" lang="en"
+                            hreflang="en">Video de Presentación - Youtube</a></li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Inspiraciones de Diseño y Contenido</h2>
+                <ul>
+                    <li><a href="https://www.latercera.com/culto/2018/08/15/viva-la-vida-coldplay/"
+                            target="_blank">Contenido del Artículo Principal - Magdalena Bordalí</a></li>
+                    <li><a href="https://chat.openai.com/" target="_blank">Contenido de la Página de Presentación - IA
+                            generativa ChatGPT</a></li>
+                    <li><a href="https://blog-salud-vital360.netlify.app/" target="_blank">Inspiraciones Generales de Diseño - El Blog de salud de Vital360</a></li>
+                </ul>
+            </section>
+
+        </div>
+    </main>
+
+
+      <!--Pie de la página-->
+      <footer class="footer">
+        <ul class="legal">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="category.html">Discografía</a></li>
+            <li><a href="presentation.html">Coldplay</a></li>
+            <li><a href="detail.html"><em lang="en">Viva la vida</em></a></li>
+            <li><a href="link.html">Enlaces</a></li>
+        </ul>
+        <div class="copyright">
+            <p class="copyright">2024 &copy; HUIMIN TAO</p>
+            <div class="logo">
+                <a href="index.html" aria-label="Ir a la página de inicio" title="página de inicio">
+                    <img src="images/logo-dark.svg" alt="Logo de Coldplay" width="150" height="60" loading="lazy">
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script defer src="./scripts/app.ts"></script>
+    <script defer src="/src/scripts/darkmode.js"></script>
+</body>
+
+</html>

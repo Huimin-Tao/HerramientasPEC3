@@ -1,0 +1,29 @@
+{
+    "env": {
+      "modern": {
+        "presets": [
+          [
+            "@babel/preset-env",
+            {
+              "targets": {
+                "esmodules": true
+              },
+              "modules": false
+            }
+          ]
+        ]
+      },
+      "legacy": {
+        "presets": [
+          [
+            "@babel/preset-env",
+            {
+              "targets": {
+                "browsers": "> 0.25%, not dead"
+              }
+            }
+          ]
+        ]
+      }
+    }
+  }
